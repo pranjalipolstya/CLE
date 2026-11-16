@@ -1,0 +1,5 @@
+SELECT CONVERT(INT, '123') AS NumberValue;
+
+SELECT CONVERT(VARCHAR(10), JoiningDate, 103)
+       AS DateInDDMMYYYY
+FROM Employees;

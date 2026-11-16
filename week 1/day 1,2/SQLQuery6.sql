@@ -1,0 +1,3 @@
+SELECT TOP 3 *
+FROM Employees
+ORDER BY Salary DESC;

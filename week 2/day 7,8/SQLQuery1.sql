@@ -1,0 +1,10 @@
+DROP PROCEDURE GetEmployees;
+GO
+
+CREATE PROCEDURE GetEmployees
+AS
+BEGIN
+    SELECT *
+    FROM Employees;
+END;
+GO
