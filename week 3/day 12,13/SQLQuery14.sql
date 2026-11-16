@@ -1,0 +1,7 @@
+CREATE TRIGGER trg_DDLChanges
+ON DATABASE
+FOR CREATE_TABLE, ALTER_TABLE, DROP_TABLE
+AS
+BEGIN
+    PRINT 'Database structure has been changed';
+END;
